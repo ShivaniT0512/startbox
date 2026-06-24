@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Startbox Marketing Company</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner container">
+    <a href="index.html" class="nav-logo">STARTBOX</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li class="has-dropdown">
+        <a href="services.html">Services</a>
+        <div class="dropdown">
+          <div class="dropdown-col">
+            <h4>Content</h4>
+            <a href="services.html">Blog Writing</a>
+            <a href="services.html">Case Studies</a>
+            <a href="services.html">Video Scripts</a>
+            <a href="services.html">Web Content</a>
+            <a href="services.html">SEO Content</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Design</h4>
+            <a href="services.html">Brand Identity</a>
+            <a href="services.html">Logo Design</a>
+            <a href="services.html">Brochures</a>
+            <a href="services.html">Packaging</a>
+            <a href="services.html">Pitch Decks</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Marketing</h4>
+            <a href="services.html">SEO</a>
+            <a href="services.html">Social Media</a>
+            <a href="services.html">PPC Campaigns</a>
+            <a href="services.html">Email Outreach</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Development</h4>
+            <a href="services.html">Website Development</a>
+            <a href="services.html">Web Applications</a>
+            <a href="services.html">UI/UX Design</a>
+            <a href="services.html">CRM Solutions</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="work.html">Clients</a></li>
+      <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-content">
+    <span class="section-label">Get in Touch</span>
+    <h1>Let's Build Something<br><em>Extraordinary</em></h1>
+    <p>Have a project in mind? We'd love to hear about it. Drop us a line and we'll get back to you within 24 hours.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Start a Conversation</h3>
+        <p>Whether you're looking for a complete brand overhaul or a targeted marketing campaign, our team is ready to help. Tell us about your goals and we'll map out the path to get there.</p>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">✉</div>
+          <div class="contact-detail-text">
+            <h4>Email Us</h4>
+            <p>startboxmarketingagancy@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">☎</div>
+          <div class="contact-detail-text">
+            <h4>Call Us</h4>
+            <p>+91 9696439231</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">⏰</div>
+          <div class="contact-detail-text">
+            <h4>Working Hours</h4>
+            <p>Open 24 Hours — 7 Days a Week</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form reveal">
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="John" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Doe">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 9696439231">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="content">Textual Content Creation</option>
+              <option value="video">Video Content Creation</option>
+              <option value="design">Experience Design</option>
+              <option value="marketing">Digital Marketing</option>
+              <option value="development">Development</option>
+              <option value="language">Language Services</option>
+              <option value="pr">PR Services</option>
+              <option value="resources">Dedicated Resources</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project, goals, and timeline..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding:0 0 6rem">
+  <div class="container">
+    <div class="reveal" style="background:var(--bg-card);border:1px solid rgba(255,255,255,.06);border-radius:20px;height:300px;display:flex;align-items:center;justify-content:center;color:var(--text-dim);font-family:var(--display);font-size:.9rem;letter-spacing:.1em">
+      MAP INTEGRATION PLACEHOLDER
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h2 class="footer-logo">STARTBOX</h2>
+        <p>Full-service branding & marketing agency building bold identities for ambitious businesses worldwide.</p>
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <span class="fc-icon">☎</span>
+            <a href="tel:+919696439231">+91 9696439231</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="fc-icon">✉</span>
+            <a href="mailto:startboxmarketingagancy@gmail.com">startboxmarketingagancy@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="work.html">Our Work</a>
+          <a href="#">Careers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="services.html">Content Creation</a>
+          <a href="services.html">Brand Design</a>
+          <a href="services.html">Digital Marketing</a>
+          <a href="services.html">Web Development</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter / X</a>
+          <a href="#">Behance</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Startbox Marketing Company. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
